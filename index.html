@@ -78,7 +78,8 @@
 
             margin-top: 20px;
         }
-        .mybtn > button {
+
+        .mybtn>button {
             margin-right: 10px;
         }
     </style>
@@ -93,6 +94,17 @@
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">영화 URL</label>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">별점</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>--선택하기--</option>
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+            </select>
         </div>
         <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
@@ -112,9 +124,7 @@
                     <div class="card-body">
                         <h5 class="card-title">영화 제목</h5>
                         <p class="card-text">영화 내용</p>
-                        <p>
-                            ⭐⭐⭐
-                        </p>
+                        <p>⭐⭐⭐</p>
                         <p class="mycomment">내 평가</p>
                     </div>
                 </div>
@@ -126,9 +136,7 @@
                     <div class="card-body">
                         <h5 class="card-title">영화 제목</h5>
                         <p class="card-text">영화 내용</p>
-                        <p>
-                            ⭐⭐⭐
-                        </p>
+                        <p>⭐⭐⭐</p>
                         <p class="mycomment">내 평가</p>
                     </div>
                 </div>
@@ -140,9 +148,7 @@
                     <div class="card-body">
                         <h5 class="card-title">영화 제목</h5>
                         <p class="card-text">영화 내용</p>
-                        <p>
-                            ⭐⭐⭐
-                        </p>
+                        <p>⭐⭐⭐</p>
                         <p class="mycomment">내 평가</p>
                     </div>
                 </div>
@@ -154,13 +160,12 @@
                     <div class="card-body">
                         <h5 class="card-title">영화 제목</h5>
                         <p class="card-text">영화 내용</p>
-                        <p>
-                            ⭐⭐⭐
-                        </p>
+                        <p>⭐⭐⭐</p>
                         <p class="mycomment">내 평가</p>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </body>
